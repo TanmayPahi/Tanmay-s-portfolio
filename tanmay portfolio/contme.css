@@ -1,0 +1,80 @@
+.navbar {
+	overflow: hidden;
+	background-color: #000000;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	background-color: rgb(156, 152, 152);
+	color: black;
+}
+
+.navbar a.active {
+	background-color: dimgray;
+	color: white;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column1 {
+	float: left;
+	width: 50%;
+	background-color: #1d5a0e;
+	padding: 10px;
+	height: 650px;
+}
+
+.column2 {
+	float: left;
+	width: 50%;
+	background-color: #f2f2f2;
+	padding: 10px;
+	height: 650px;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-image: linear-gradient(to bottom right, deepskyblue, blue, white);
+	color: rgb(255, 255, 255);
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+.footer {
+	padding: 20px;
+	text-align: center;
+	background: #868484;
+}
